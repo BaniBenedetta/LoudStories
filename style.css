@@ -1,1 +1,53 @@
 h1 {color: black}
+header{
+	text-align: center;
+	padding-top: 130px;
+	background: purple; 
+	color: white;
+	text-transform: uppercase;
+}
+nav{
+	text-align: center;
+	background: purple;
+}
+nav ul{
+	list-style-type: none;
+	padding-top: 30px;
+	padding-bottom: 10px;
+
+}
+nav ul li{
+	display: inline-block;
+	margin-right: 60px;
+	margin-left: 60px;
+	text-transform: uppercase;
+
+}
+a{
+	text-decoration: none !important;
+	color: black !important;
+}
+section{
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+#morespace{
+	margin-left: 100px; 
+
+}
+#lessspace{
+	margin-right: 5%;
+
+}
+.distance{
+	margin-right: 30px; 
+}
+.title{
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+#spacetitle{
+ 	padding-bottom: 30px;
+ }
