@@ -37,12 +37,13 @@ footer {
 }
 #navbar{
 	background-color: orange !important;
-
 }
 #navbarspace{
-	padding-right: 140px !important;
-	padding-top:40px;
+	padding-right: 15px !important;
+	padding-top:30px;
 	text-transform: uppercase;
+	padding-bottom: 25px;
+	margin-left: 5px;
 }
 #spaceitem{
 	margin-left: 80px;
@@ -52,7 +53,7 @@ footer {
 }
 
 #morespace{
-	margin-left: 90px;
+	margin-left: 5%;
 	margin-top: 50px;
 }
 
@@ -64,6 +65,11 @@ footer {
 img{
 	width:50% ;
 	height: ;
+}
+footer{
+	text-align: center;
+	padding-top: 80px; 
+	color: black;
 }
 
 /*#lessspace{
