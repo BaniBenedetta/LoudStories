@@ -1,60 +1,48 @@
-header {
-	/*text-align: center;
-	padding-top: 0px;
-	background: orange; 
-	color: white;
-	text-transform: uppercase;*/
-}
+header {}
+
 nav {
 	text-align: center;
 }
 
+#navbar{
+	background-color: orange !important;
+}
+
+#logoloudstories{
+	padding-right: 80px !important;
+	padding-top:30px;
+	text-transform: uppercase;
+	padding-bottom: 25px;
+	margin-left: 5px;
+	text-transform: lowercase;
+}
+
 nav ul li {
-	margin-right: 70px;
+	margin-right: 50px;
 	margin-left: 60px;
 	text-transform: uppercase;
-
 }
+
 a {
 	text-decoration: none !important;
 	color: black !important;
 }
+
 section {
 	padding-top: 20px;
 	padding-bottom: 40px;
 }
 
-h1 {
+h2 {
 	text-align: center;
 	text-transform: uppercase;
 	padding: 8%;
 	background-color: yellow;
 }
-footer {
-	background-color: orange;
-	padding: 5%;
 
-}
-#navbar{
-	background-color: orange !important;
-}
-#navbarspace{
-	padding-right: 15px !important;
-	padding-top:30px;
-	text-transform: uppercase;
-	padding-bottom: 25px;
-	margin-left: 5px;
-}
-#spaceitem{
-	margin-left: 80px;
-}
-#spaceword{
-	margin-right: 50px !important;
-}
-
-#morespace{
-	margin-left: 5%;
-	margin-top: 50px;
+h1{
+	font-family: 'Reenie Beanie', cursive;
+	color: white;
 }
 
 .title {
@@ -62,23 +50,48 @@ footer {
 	padding-top: 70px;
 	padding-bottom: 70px;
 }
-img{
-	width:50% ;
-	height: ;
+
+#morespace{
+	margin-top: 50px;
 }
-footer{
+
+.gallerycard{
+	border: 5px solid #ccc;
+	border-radius: 0.25rem;
+}
+
+.gallerycard:hover{
+	border: 5px solid #777;
+}
+
+.carousel{
+}
+footer {
+	background-color: orange;
 	text-align: center;
 	padding-top: 80px; 
 	color: black;
 }
+button.buttonsocial{
+	border: 3px solid rgb(0, 0, 0, 0.7);
+	background-color: orange;
+	border-radius: 0.5em;
+	padding: 5px 5px;
+	margin: 0px 10px;
+	font-size: 16px;
+}
+button.buttonsocial:hover{
+	border: 3px solid rgb(0, 0, 0, 1);
+}
 
-/*#lessspace{
-	margin-right: 5%;
+#spaceitem{
+	margin-left: 80px;
+}
+#spaceword{
+	margin-right: 50px !important;
+}
 
-}*/
-/*.distance{
-	margin-right: 30px;}*/ 
-
-/*.spacetitle{
- 	padding-bottom: 30px;
- }*/
+img{
+	max-width:100% ;
+	max-height: 20% ;
+}
