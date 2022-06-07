@@ -5,7 +5,7 @@ nav {
 }
 
 #navbar{
-	background-color: orange !important;
+	background-color: #E8A89C !important;
 }
 
 #logoloudstories{
@@ -28,53 +28,91 @@ a {
 	color: black !important;
 }
 
+.dropdown-menu{
+	display: none;
+	background-color: #E8A89C !important;
+}
+.dropdown:hover .dropdown-menu{
+  display: block;
+}
+
 section {
 	padding-top: 20px;
 	padding-bottom: 40px;
 }
-
-h2 {
-	text-align: center;
-	text-transform: uppercase;
-	padding: 8%;
-	background-color: yellow;
-}
-
 h1{
 	font-family: 'Reenie Beanie', cursive;
-	color: white;
 }
+h2 {
+	text-align: center;
+	text-transform: inherit;
+	padding: 8%;
+	background-color: pink;
+	/*background-image: url("img/righe.jpg");*/
+	background-color:none;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Newsreader', serif, bold;
+ }
+.narrativetext{
+	font-family: 'Poppins', sans-serif;
+}
+
+ /*#secondtitle{
+ 	background-image: url("Narrativa.jpg");
+ 	background-color: #cccccc;
+ } id per provare a vedere se il titolo prende l'immagine di background*/
 
 .title {
 	text-align: center;
 	padding-top: 70px;
 	padding-bottom: 70px;
 }
-
-#morespace{
+.cardbody{
+	background-color:none;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	margin-top: 50px;
+	/*transform: scale(1);
+    width: 222px;
+    height: 100%;
+    position: absolute;*/
+}
+.active {
+	text-align: center !important;
+	color: pink;
 }
 
 .gallerycard{
 	border: 5px solid #ccc;
 	border-radius: 0.25rem;
+	font-family: 'Newsreader', serif, bold;
 }
 
 .gallerycard:hover{
 	border: 5px solid #777;
 }
 
-.carousel{
+.btncolor{
+	background-color: pink !important;
+	position: relative; ;
+	top: 0rem;
+	left: 9rem;
+	width:10rem;
+	height:3rem;
 }
+
 footer {
-	background-color: orange;
+	background-color: #E8A89C;
 	text-align: center;
 	padding-top: 80px; 
 	color: black;
 }
 button.buttonsocial{
 	border: 3px solid rgb(0, 0, 0, 0.7);
-	background-color: orange;
+	background-color: #E8A89C;
 	border-radius: 0.5em;
 	padding: 5px 5px;
 	margin: 0px 10px;
@@ -95,3 +133,4 @@ img{
 	max-width:100% ;
 	max-height: 20% ;
 }
+
