@@ -6,10 +6,10 @@ nav {
 
 #navbar{
 	background-color: #E8A89C !important;
+	font-family: 'Inter', sans-serif;
 }
 
 #logoloudstories{
-	padding-right: 80px !important;
 	padding-top:30px;
 	text-transform: uppercase;
 	padding-bottom: 25px;
@@ -32,8 +32,19 @@ a {
 	display: none;
 	background-color: #E8A89C !important;
 }
+
 .dropdown:hover .dropdown-menu{
   display: block;
+  border-color: #36454F;
+}
+
+.dropdown-item{
+	background-color: #E8A89C !important;
+	opacity: 0.5;
+}
+
+.dropdown-item:hover{
+	opacity: 1;
 }
 
 section {
@@ -47,20 +58,14 @@ h2 {
 	text-align: center;
 	text-transform: inherit;
 	padding: 8%;
-	background-color: pink;
-	/*background-image: url("img/righe.jpg");*/
-	background-color:none;
+	background-color: none;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	font-family: 'Newsreader', serif, bold;
  }
-.narrativetext{
-	font-family: 'Poppins', sans-serif;
-}
 
  /*#secondtitle{
- 	background-image: url("Narrativa.jpg");
+ 	background-image: url("img/Narrativa.jpg");
  	background-color: #cccccc;
  } id per provare a vedere se il titolo prende l'immagine di background*/
 
@@ -75,33 +80,46 @@ h2 {
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin-top: 50px;
+	text-align: center;
 	/*transform: scale(1);
     width: 222px;
     height: 100%;
     position: absolute;*/
 }
+
 .active {
 	text-align: center !important;
 	color: pink;
 }
 
 .gallerycard{
-	border: 5px solid #ccc;
+	border: 5px solid rgb(195, 168, 144, 0.5);
 	border-radius: 0.25rem;
-	font-family: 'Newsreader', serif, bold;
+	font-family: 'Inter', sans-serif;
+	background-color: #E1D3C7 !important;
+	margin-bottom: 40px;
 }
 
 .gallerycard:hover{
-	border: 5px solid #777;
+	border: 5px solid rgb(195, 168, 144, 1);
+}
+
+.fontsize{
+	font-size: 30px ;
 }
 
 .btncolor{
-	background-color: pink !important;
-	position: relative; ;
-	top: 0rem;
-	left: 9rem;
-	width:10rem;
-	height:3rem;
+	background-color: #567346 !important;
+	padding: 3rem 10rem;
+	border: 2px;
+	border-radius: 0.25rem;
+	opacity: 0.9;
+	margin-top: 1rem;
+}
+
+.btncolor:hover{
+	background-color: #567346;
+	opacity: 1;
 }
 
 footer {
