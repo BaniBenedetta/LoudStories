@@ -63,17 +63,23 @@ h2 {
 	background-repeat: no-repeat;
 	background-size: cover;
  }
+.titolopagina{
+ 	text-align: center;
+	font-family: 'Inter', sans-serif;
+ }
 
  /*#secondtitle{
  	background-image: url("img/Narrativa.jpg");
  	background-color: #cccccc;
  } id per provare a vedere se il titolo prende l'immagine di background*/
 
-.title {
-	text-align: center;
-	padding-top: 70px;
-	padding-bottom: 70px;
+.intro {
+ 	text-align: center;
+ 	font-family: 'Inter', sans-serif;
+ 	margin-right: 15%;
+  margin-left: 15%;
 }
+
 .cardbody{
 	background-color:none;
 	background-position: center;
@@ -112,8 +118,9 @@ h2 {
 	background-color: #567346 !important;
 	padding: 3rem 10rem;
 	border: 2px;
+	border-color: #567346 !important;
 	border-radius: 0.25rem;
-	opacity: 0.9;
+	opacity: 0.8;
 	margin-top: 1rem;
 }
 
@@ -139,7 +146,13 @@ button.buttonsocial{
 button.buttonsocial:hover{
 	border: 3px solid rgb(0, 0, 0, 1);
 }
-
+.mailcontact{
+	font-family: 'Reenie Beanie', cursive;
+	font-size: 30px;
+}
+.testolibro{
+	font-family: 'Newsreader', serif;
+}
 #spaceitem{
 	margin-left: 80px;
 }
