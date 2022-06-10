@@ -6,7 +6,6 @@ nav {
 
 #navbar{
 	background-color: #E8A89C !important;
-	font-family: 'Inter', sans-serif;
 }
 
 #logoloudstories{
@@ -32,18 +31,16 @@ a {
 	display: none;
 	background-color: #E8A89C !important;
 }
-
 .dropdown:hover .dropdown-menu{
   display: block;
   border-color: #36454F;
 }
-
-.dropdown-item{
+.dropdown-item {
 	background-color: #E8A89C !important;
 	opacity: 0.5;
 }
 
-.dropdown-item:hover{
+.dropdown-item:hover {
 	opacity: 1;
 }
 
@@ -58,20 +55,21 @@ h2 {
 	text-align: center;
 	text-transform: inherit;
 	padding: 8%;
-	background-color: none;
+	background-color: pink;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
  }
-.titolopagina{
+ h3 {
  	text-align: center;
-	font-family: 'Inter', sans-serif;
+ 	font-family:'Inter', sans-serif;
+ 	padding-top: 30px;
  }
 
- /*#secondtitle{
- 	background-image: url("img/Narrativa.jpg");
- 	background-color: #cccccc;
- } id per provare a vedere se il titolo prende l'immagine di background*/
+ .titolopagina{
+ 	text-align: center;
+  font-family: 'Inter', sans-serif;
+ }
 
 .intro {
  	text-align: center;
@@ -79,7 +77,15 @@ h2 {
  	margin-right: 15%;
   margin-left: 15%;
 }
-
+/*#secondtitle{
+ 	background-image: url("img/Narrativa.jpg");
+ 	background-color: #cccccc;
+ } id per provare a vedere se il titolo prende l'immagine di background*/
+ 
+ .firstletter{
+ 	font-size: 3em;
+ 	line-height: 15px;
+ }
 .cardbody{
 	background-color:none;
 	background-position: center;
@@ -92,7 +98,6 @@ h2 {
     height: 100%;
     position: absolute;*/
 }
-
 .active {
 	text-align: center !important;
 	color: pink;
@@ -135,6 +140,16 @@ footer {
 	padding-top: 80px; 
 	color: black;
 }
+
+.mailcontact{
+	font-family: 'Reenie Beanie', cursive;
+	font-size: 30px;
+}
+.testolibro{
+	font-family: 'Newsreader', serif;
+	font-size: 1.2em;
+}
+
 button.buttonsocial{
 	border: 3px solid rgb(0, 0, 0, 0.7);
 	background-color: #E8A89C;
@@ -146,16 +161,11 @@ button.buttonsocial{
 button.buttonsocial:hover{
 	border: 3px solid rgb(0, 0, 0, 1);
 }
-.mailcontact{
-	font-family: 'Reenie Beanie', cursive;
-	font-size: 30px;
-}
-.testolibro{
-	font-family: 'Newsreader', serif;
-}
+
 #spaceitem{
 	margin-left: 80px;
 }
+
 #spaceword{
 	margin-right: 50px !important;
 }
@@ -164,4 +174,3 @@ img{
 	max-width:100% ;
 	max-height: 20% ;
 }
-
