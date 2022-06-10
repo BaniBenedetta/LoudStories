@@ -6,6 +6,7 @@ nav {
 
 #navbar{
 	background-color: #E8A89C !important;
+	max-width: 100%;
 }
 
 #logoloudstories{
@@ -31,10 +32,12 @@ a {
 	display: none;
 	background-color: #E8A89C !important;
 }
+
 .dropdown:hover .dropdown-menu{
   display: block;
   border-color: #36454F;
 }
+
 .dropdown-item {
 	background-color: #E8A89C !important;
 	opacity: 0.5;
@@ -48,9 +51,15 @@ section {
 	padding-top: 20px;
 	padding-bottom: 40px;
 }
+
 h1{
 	font-family: 'Reenie Beanie', cursive;
 }
+
+#imghome{
+	margin-bottom: 50px;
+}
+
 h2 {
 	text-align: center;
 	text-transform: inherit;
@@ -66,6 +75,10 @@ h2 {
  	padding-top: 30px;
  }
 
+#songspace{
+	padding-top: 50px;
+}
+
  .titolopagina{
  	text-align: center;
   font-family: 'Inter', sans-serif;
@@ -75,17 +88,14 @@ h2 {
  	text-align: center;
  	font-family: 'Inter', sans-serif;
  	margin-right: 15%;
-  margin-left: 15%;
+ 	margin-left: 15%;
 }
-/*#secondtitle{
- 	background-image: url("img/Narrativa.jpg");
- 	background-color: #cccccc;
- } id per provare a vedere se il titolo prende l'immagine di background*/
  
  .firstletter{
  	font-size: 3em;
  	line-height: 15px;
  }
+
 .cardbody{
 	background-color:none;
 	background-position: center;
@@ -98,9 +108,15 @@ h2 {
     height: 100%;
     position: absolute;*/
 }
+
+
 .active {
 	text-align: center !important;
 	color: pink;
+}
+
+.row{
+	max-width: 100%;
 }
 
 .gallerycard{
@@ -113,6 +129,10 @@ h2 {
 
 .gallerycard:hover{
 	border: 5px solid rgb(195, 168, 144, 1);
+}
+
+hr.solid {
+  border-top: 3px solid rgb(195, 168, 144, 1);
 }
 
 .fontsize{
@@ -134,6 +154,14 @@ h2 {
 	opacity: 1;
 }
 
+#spacetitle{
+	margin-top: 50px;
+}
+
+.greentitle{
+	color:#567346;
+}
+
 footer {
 	background-color: #E8A89C;
 	text-align: center;
@@ -145,6 +173,7 @@ footer {
 	font-family: 'Reenie Beanie', cursive;
 	font-size: 30px;
 }
+
 .testolibro{
 	font-family: 'Newsreader', serif;
 	font-size: 1.2em;
@@ -158,6 +187,7 @@ button.buttonsocial{
 	margin: 0px 10px;
 	font-size: 16px;
 }
+
 button.buttonsocial:hover{
 	border: 3px solid rgb(0, 0, 0, 1);
 }
@@ -171,6 +201,6 @@ button.buttonsocial:hover{
 }
 
 img{
-	max-width:100%;
-	max-height: 20%;
+	max-width:100% ;
+	max-height: 20% ;
 }
