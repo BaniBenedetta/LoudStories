@@ -71,10 +71,6 @@ h2 {
   font-family: 'Inter', sans-serif;
  }
 
- .sottotitolo{
- 	font-size: 22px;
- }
-
 .intro {
  	text-align: center;
  	font-family: 'Inter', sans-serif;
@@ -145,11 +141,6 @@ footer {
 	color: black;
 }
 
-.copyrightfooter {
-	padding-right: 15em;
-	padding-left: 15em;
-}
-
 .mailcontact{
 	font-family: 'Reenie Beanie', cursive;
 	font-size: 30px;
@@ -183,3 +174,82 @@ img{
 	max-width:100%;
 	max-height: 20%;
 }
+
+/*body{
+	margin: 0;
+	padding: 0;
+	background: #E8A89C;*/
+
+}
+.search-box{
+	position: absolute;
+	top:  50%;
+	left: 50%;
+	transform:  translate(-50%,-50%);
+	background: #2f3640;
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px #;
+}
+.search-box:hover > .search-txt
+{
+	width: 240px;
+	padding: 0 6px;
+
+}
+.search-box:hover > .search-btn
+{
+	background: white;
+
+
+}
+.search-btn
+{
+	color:  #E8A89C;
+	float: rignt;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #2f3640;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.4s;
+}
+.search-txt
+{	
+	border: none;
+	background: none;
+	outline: none;
+	float: left;
+	padding: 0;
+	color: white;
+	font-size: 16px;
+	transition: 0.4s;
+	line-height: 40px;
+	width: 0px;
+}
+
+#quiz
+{
+  margin-left: 10px;
+  background-color: #E1D3C7;
+  padding: 10px 20px 10px 20px;
+  width: 400px;
+  border-radius: 20px;
+  float: center;
+  margin-bottom: 40px;
+  margin-left:  37% ;
+  margin-right: 40% ;
+
+}
+
+
+
+
+
+
+
+
+
+
