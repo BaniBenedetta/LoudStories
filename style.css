@@ -71,6 +71,10 @@ h2 {
   font-family: 'Inter', sans-serif;
  }
 
+ .sottotitolo{
+ 	font-size: 22px;
+ }
+
 .intro {
  	text-align: center;
  	font-family: 'Inter', sans-serif;
@@ -139,6 +143,11 @@ footer {
 	text-align: center;
 	padding-top: 80px; 
 	color: black;
+}
+
+.copyrightfooter {
+	padding-right: 15em;
+	padding-left: 15em;
 }
 
 .mailcontact{
