@@ -18,13 +18,9 @@ nav {
 }
 
 nav ul li {
-	margin-right: 20px;
-	margin-left: 20px;
-	padding-left: 60px;
-	padding-right: 10px;
+	margin-right: 40px;
+	margin-left: 40px;
 	text-transform: uppercase;
-	float: right !important;
-	padding: 14px 16px;
 }
 
 a {
