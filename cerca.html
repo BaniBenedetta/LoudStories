@@ -69,44 +69,44 @@
 	<section id="quiz">
 
 Q1. <b>Preferiresti:</b><br>
-<input type="radio" name="question1" id="correct1">scappare su un'isola deserta<br>
-<input type="radio" name="question1">svegliarti in un mondo immerso nella natura e nella magia <br>
+<input type="radio" name="question1" id="correct1"> Scappare su un'isola deserta<br>
+<input type="radio" name="question1"> Svegliarti in un mondo immerso nella natura e nella magia <br>
 
 Q2. <b>Quando hai un obiettivo:</b><br>
-<input type="radio" name="question2" id="correct2">dai il massimo per raggiungerlo <br>
-<input type="radio" name="question2">procrastini fino all'ultimo causandoti una crisi di nervi<br>
+<input type="radio" name="question2" id="correct2"> Dai il massimo per raggiungerlo <br>
+<input type="radio" name="question2"> Procrastini fino all'ultimo causandoti una crisi di nervi<br>
 
 Q3. <b>Quando ascolti della musica:</b><br>
-<input type="radio" name="question3">vai alla ricerca delle ultime hit del mese<br>
-<input type="radio" name="question3" id="correct3">scegli la playlist che non cmabia dal 2008<br>
+<input type="radio" name="question3"> Vai alla ricerca delle ultime hit del mese<br>
+<input type="radio" name="question3" id="correct3"> Scegli la playlist che non cmabia dal 2008<br>
 
 Q4. <b>La prima cosa di cui hai voglia la mattina:</b><br>
-<input type="radio" name="question4" id="correct4">caffè<br>
-<input type="radio" name="question4">the<br>
+<input type="radio" name="question4" id="correct4"> Caffè<br>
+<input type="radio" name="question4"> Tè<br>
 
 Q5. <b>Se potessi scegliere un animale da compagnia, preferiresti avere al tuo fianco:</b><br>
-<input type="radio" name="question5" id="correct5">un mastino<br>
-<input type="radio" name="question5">un grifone <br>
+<input type="radio" name="question5" id="correct5"> Un mastino<br>
+<input type="radio" name="question5"> Un grifone <br>
 
 Q6. <b>Ad una festa:</b><br>
-<input type="radio" name="question6">ti scateni in pista mostrando le tue mosse migliori<br>
-<input type="radio" name="question6" id="correct6">osservi chi ti sta attorno sorseggiando il tuo drink<br>
+<input type="radio" name="question6"> Ti scateni in pista mostrando le tue mosse migliori<br>
+<input type="radio" name="question6" id="correct6"> Osservi chi ti sta attorno sorseggiando il tuo drink<br>
 
 Q7.<b> Preferiresti vedere una mostra di:</b><br>
-<input type="radio" name="question7">Dalì<br>
-<input type="radio" name="question7" id="correct7">Magritte<br>
+<input type="radio" name="question7"> Dalì<br>
+<input type="radio" name="question7" id="correct7"> Magritte<br>
 
 Q8. <b> Nel tuo armadio ci sono:</b><br>
-<input type="radio" name="question8">capi dai colori sgargianti, foulard floreali e sandali<br>
-<input type="radio" name="question8" id="correct8">abiti monoscromatici (che sembrano usciti dal guardaroba di un bibliotecario), camicie e cappelli rubati a tuo nonno<br>
+<input type="radio" name="question8"> Capi dai colori sgargianti, foulard floreali e sandali<br>
+<input type="radio" name="question8" id="correct8"> Abiti monoscromatici (che sembrano usciti dal guardaroba di un bibliotecario), camicie e cappelli rubati a tuo nonno<br>
 
 Q9. <b>Usi più spesso:</b><br>
-<input type="radio" name="question9">la borsa<br>
-<input type="radio" name="question9" id="correct9">lo zaino<br>
+<input type="radio" name="question9"> La borsa<br>
+<input type="radio" name="question9" id="correct9"> Lo zaino<br>
 
 Q10.<b> Cosa preferisci:</b><br>
-<input type="radio" name="question10" id="correct10">cibi dolci<br>
-<input type="radio" name="question10">cibi salati<br>
+<input type="radio" name="question10" id="correct10"> Cibi dolci<br>
+<input type="radio" name="question10"> Cibi salati<br>
 
 <input type="submit" name="submit" value="risultato" class="btn btn-light btn-lg active btncolor "onclick="result()">
 
@@ -155,12 +155,16 @@ Q10.<b> Cosa preferisci:</b><br>
 		 	score++;
 		 }
 		
-		 document.write("Your score is:"+score);
+		 alert("Your score is:"+score);
 }
 
 	
 </script>
-
+<section>
+	<p> Se il tuo risultato è maggiore o uguale a 8,  <a id="bottoneclicca" href="#Gialli">Giallo.</a> <br>
+		se il tuo risultato è compreso tra 2 e 8, <a id="bottoneclicca" href="#Narrativa">Narrativa.</a> <br>
+	se il tuo risultato è uguale o minore di 2, <a id="bottoneclicca" href="#Fantasy">Fantasy.</a> </p>
+</section>
 
 	</section>
 
@@ -186,6 +190,12 @@ Q10.<b> Cosa preferisci:</b><br>
 				<i class="fa fa-2x fa-fw fa-twitter text-black" aria-hidden="true"></i>
 			</a>
 		</button>
-		</section>
+		<button class="buttonsocial" type="button">
+				<a href="https://wa.me/?text=I%20found%20a%20great%20website.%20Check%20out%20this%20link%20https%3A%2F%2Fwww.example.com%2F">
+					<i class="fa-brands fa-2x fa-fw fa-whatsapp"></i>
+				</a>
+					<!--- inserire il link del sito in www.example.com-->
+			</button>
+		</section>		
 </footer>
 </html>
