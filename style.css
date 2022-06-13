@@ -59,7 +59,7 @@ h2 {
 	text-align: center;
 	text-transform: inherit;
 	padding: 8%;
-	background-color: #E8A89C;
+	background-color: pink;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -76,10 +76,26 @@ h2 {
  	font-family:'Inter', sans-serif;
  	padding-top: 30px;
  }
-
+.row {
+	max-width: 100%;
+}
+#loudstoriesintro{
+	text-align: center;
+	font-family:'Newsreader', serif;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	font-size: 30px;
+}
+#bottoneclicca{
+	color:#567346 !important;
+}
  .titolopagina{
  	text-align: center;
   font-family: 'Inter', sans-serif;
+ }
+
+ .sottotitolo{
+ 	font-size: 22px;
  }
 
 .intro {
@@ -97,6 +113,7 @@ h2 {
  	font-size: 3em;
  	line-height: 15px;
  }
+
 .cardbody{
 	background-color:none;
 	background-position: center;
@@ -152,6 +169,11 @@ footer {
 	color: black;
 }
 
+.copyrightfooter {
+	padding-right: 15em;
+	padding-left: 15em;
+}
+
 .mailcontact{
 	font-family: 'Reenie Beanie', cursive;
 	font-size: 30px;
@@ -200,7 +222,7 @@ img{
 	background: #2f3640;
 	height: 40px;
 	border-radius: 40px;
-	padding: 10px #;
+	padding: 10px;
 }
 .search-box:hover > .search-txt
 {
@@ -252,5 +274,4 @@ img{
   margin-bottom: 40px;
   margin-left:  37% ;
   margin-right: 40% ;
-
 }
