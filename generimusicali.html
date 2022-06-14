@@ -2,31 +2,31 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="description" content="Scopri un mondo pieno di parole, lasciati inspirare dalla musica, scegli il libro o la canzone e immergiti nell'atmosfera che preferisci.">
+	<meta name="keywords" content="HTML, CSS, JavaScript, books, libri, spotify, natura, ambiente, narrativa, fantasy, gialli, musica, rock, pop">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<title>Loud Stories</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-	<meta name="viewport" content="initial-scale=1">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@1,6..72,600&display=swap" rel="stylesheet">
-	<!---<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz@1,6..72&display=swap" rel="stylesheet">-->
 	<script src="https://kit.fontawesome.com/3fcd853cc4.js" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </head>
-<!--<style type="text/css"></style>-->
 <body>
 	<header>
 		<nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
 			<div class="container-fluid">
-					<a class="navbar-brand" id="logoloudstories" href="#"> <h1 class="display-3"> <b>Loud Stories </b></h1></a>
+					<a class="navbar-brand" id="logoloudstories" href="index.html"><h1 class="display-3"><b>Loud Stories</b></h1></a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarNavDropdown">
 					<ul class="navbar-nav">
-						<li class="nav-item"> <a class="nav-link active" aria-current="page" id="spaceitem" href="index.html">Home</a> </li>
+						<li class="nav-item"> <a class="nav-link active" aria-current="page" id="spaceitem" href="index.html">Home</a></li>
 						<li class="nav-item dropdown"> 
 							<a class="nav-link dropdown-toggle" href="generitestuali.html" id="navbarDropdownMenuLink spaceword" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Generi testuali</a>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -34,6 +34,7 @@
 								<li><a class="dropdown-item" href="generitestuali.html#Gialli">Gialli</a></li>
 								<li><a class="dropdown-item" href="generitestuali.html#Fantasy">Fantasy</a></li>
 							</ul>
+						</li>	
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="generimusicali.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Generi Musicali</a> 
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -41,22 +42,21 @@
 								<li><a class="dropdown-item" href="#Rock">Rock</a></li>
 								<li><a class="dropdown-item" href="#Ambiente">Musica d'ambiente</a></li>
 							</ul>
+						</li>	
 						<li class="nav-item">
 							<a class="nav-link" href="cerca.html">Cerca</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="about.html">About</a>
 						</li>
-						
-							</ul>
-						</li>
 					</ul>
 				</div>
 			</div>
+		</nav>
 	</header>
 	<main>
 		<div>
-			<img src="img/libroaperto.jpg" alt="un libro aperto a metà, poggiato su una strada in pietra, su cui si legge la frase dove le parole trovano la propria musica">
+			<img src="img/libroaperto.jpg" alt="un libro aperto a metà, poggiato su una strada in pietra, su cui si legge il pay-off del sito, 'dove le parole trovano la propria musica'">
 		</div>
 		<section>
 			<h3 class="titolopagina"><b>Generi musicali</b></h3>
@@ -66,7 +66,7 @@
 		</section>
 		<section>
 			<a id="Pop">
-				<img src="img/chitarra.jpg" alt="una chitarra acustica è tenuta tra le mani di un giovane uomo mentre la suona, sull'immagine si legge il titolo della sezione Pop">
+				<img src="img/chitarra.jpg" alt="diversi libri di narrativa, appoggiati l'uno di fianco all'altro, all'interno di una scatola in legno adibita al book swap, sull'immagine si legge il titolo Narrativa">
 			</a>
 		</section>
 		<section class="container">
@@ -127,7 +127,7 @@
 		</section>
 		<section>
 			<a id="Rock">
-				<img src="img/rock.jpg" alt="una chitarra elettrica è tenuta tra le mani di un giovane uomo mentre la suona, sull'immagine si legge il titolo della sezione Rock">
+				<img src="img/rock.jpg" alt="diversi libri gialli, appoggiati l'uno di fianco all'altro, all'interno di una borsa, a sua volta poggiata sopra ad una panchina gialla, sull'immagine si legge il titolo Gialli">
 			</a>
 		</section>
 		<section class="container">
@@ -188,7 +188,7 @@
 		</section>
 		<section>
 			<a id="Ambiente">
-				<img src="img/ambiente.jpg" alt="un angolo fiorito, pieno di foglie rigogliose e fiori sbocciati, sull'immagine si legge il titolo della sezione Musica d'ambiente">
+				<img src="img/ambiente.jpg" alt="diversi libri fantasy, appoggiati l'uno sopra all'altro, sopra una colonna di pietra i cui capitelli raffigurano due leoni, sull'immagine si legge il titolo Fantasy">
 			</a>
 		</section>
 		<section class="container">
@@ -248,13 +248,12 @@
 		</div>
 		</section>
 	</main>
-</body>
 <footer>
 		<p>Loud Stories è un progetto di Benedetta Bani, Gaia Gozzi e Maddalena Messora, sviluppato per il corso di Informatica Umanistica dell'Alma Mater Studiorum - Università di Bologna.</p>
 	<section class="mailcontact">
-		<a href="mailto:loudstories2022@gmail.com">Contattaci via mail!</a>
+		<a href="mailto:loudstories@example.com">Contattaci via mail!</a>
 	</section>
-		<section class="social">
+	<div class="social">
 		<button class="buttonsocial" type="button">
 			<a href="sitoinstagram">
 				<i class="fa fa-2x fa-fw fa-instagram text-black" aria-hidden="true"></i>
@@ -275,7 +274,21 @@
 					<i class="fa-brands fa-2x fa-fw fa-whatsapp"></i>
 				</a>
 					<!--- inserire il link del sito in www.example.com-->
-			</button>
-		</section>		
+		</button>
+	</div>
+	<section>
+		<div>
+			<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
+			<i class="fa-brands fa-creative-commons-by fa-x"></i> <i class="fa-brands fa-creative-commons-nc"></i></a>
+			Le foto presenti nel sito sono state scattate e progettate da Benedetta Bani e sono coperte da licenza <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.	
+		</div>
+		<div>
+			<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+			<i class="fa-brands fa-creative-commons-by fa-x"></i></a>
+			Il sito è coperto da licenza 
+			<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+		</div>
+    </section>	
 </footer>
+</body>
 </html>
