@@ -213,6 +213,13 @@ img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	max-width: 70%;
+}
+
+.segnalibri{
+	max-width: 100%;
+	max-height: 500px;
+	margin-top: 10px;
 }
 
 .search-box {
@@ -266,14 +273,31 @@ img {
 }
 
 #quiz {
-  margin-left: 10px;
   background-color: #E1D3C7;
   padding: 10px 20px 10px 20px;
   width: 460px;
   border-radius: 20px;
   float: center;
   margin-bottom: 40px;
-  margin-left:  37% ;
-  margin-right: 40% ;
   margin-top: 15px;
+  max-width: 100% !important;
+}
+
+.classabout {
+	background-color:#E1D3C7;
+	padding: 10px 20px 10px 20px;
+	width: 1000px !important;
+ 	border-radius: 20px;
+  	float: center;
+  	margin-bottom: 40px;
+  	margin-top: 15px;
+  	max-width: 100%;
+}
+
+#aboutintro{
+	padding-top: 20px;
+}
+
+.paddingcerca {
+	max-width: 100% !important;
 }
