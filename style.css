@@ -207,6 +207,13 @@ img {
 	max-height: 20%;
 }
 
+.imgdocu
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .search-box {
 	position: relative;
 	left: 90%;
