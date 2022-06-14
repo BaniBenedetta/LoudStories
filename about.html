@@ -5,7 +5,8 @@
   <meta name="description" content="Scopri un mondo pieno di parole, lasciati inspirare dalla musica, scegli il libro o la canzone e immergiti nell'atmosfera che preferisci.">
   <meta name="keywords" content="HTML, CSS, JavaScript, books, libri, spotify, natura, ambiente, narrativa, fantasy, gialli, musica, rock, pop">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="/LoudStories/css/style.css">
+  <!---<link rel="stylesheet" type="text/css" href="/LoudStories/css/style.css">-->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
   <title>Loud Stories</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -55,28 +56,28 @@
       </div>
     </nav> 
   </header>
-  <div style='padding:100px 300px; background-color:#E1D3C7'>
-      <h1 style="font-size: 300%;">ABOUT US &#128523</h1>
-      <img class="imgdocu" src="img/immaginesito.JPG" alt="QUESTE SIAMO NOI!" width="800" height="600">
-      <p style="padding-top: 20px;"> Siamo tre ragazze iscritte al corso di laurea in Scienze della comunicazione all'università di Bologna.<br> 
+  <div class="container classabout">
+      <h1 style="font-size: 60px; padding-top: 40px;">ABOUT US &#128523</h1>
+      <img class="imgdocu" src="img/immaginesito.JPG" alt="QUESTE SIAMO NOI!">
+      <p id="aboutintro"> Siamo tre ragazze iscritte al corso di laurea in Scienze della comunicazione all'università di Bologna.<br> 
       Questo sito nasce come progetto per un esame e verrà valutato.<br>
       L'idea di coniugare la musica alla lettura è nata in quanto la lettura è la passione che ci unisce: tutte infatti vorremmo lavorare nell'ambito dell'editoria.<br>
       E cosa c'è di meglio se non unire la lettura a una buona dose di musica?<br>
       Ecco qui un sito per farlo! <br></p>
       <p> Buona lettura e buon ascolto da <br>
       Gaia, Maddalena e Benedetta. &#10084;</p>
-        <hr  width=”100″ >
-      <h1 style="font-size: 300%; padding-top: 10px;"> DOCUMENTAZIONE &#128516</h1>
-          <h1 style="font-size:300%; padding-top: 40px;"> PROJECT MANAGEMENT PLAN &#128204 </h1>
+        <hr width=”100″>
+      <h1 style="font-size: 60px; padding-top: 10px; max-width: 100%;">DOCUMENTAZIONE &#128516</h1>
             <h2 style="font-size: 150%;"> Abstract </h2>
             <p>Loud Stories è un sito che offre all'utente un'esperienza innovativa e coinvolgente, capace di coniugare il piacere della lettura all'energia trasmessa dalla musica. Il sito associa brevi estratti di libri a canzoni in grado di amplificare le sensazioni e l'atmosfera che questi trasmettono, per dare voce alle storie e permettere alle note di raggiungere mondi nuovi. Si tratta di un luogo virtuale in cui lettori accaniti, appassionati di musica o utenti alla ricerca di nuove esperienze possano coltivare o scoprire la propria passione per la musica e per la lettura.</p>
+          <h1 style="font-size:60px; padding-top: 40px;"> PROJECT MANAGEMENT PLAN &#128204 </h1>
           <h1 style="font-size:220%;"> BENCHMARKING </h1>
             <h2 style="font-size:150%;">Competitors</h2>
             <span id="competitorprincipale"> <i>Competitor principale:</i></span> 
             <p>Il competitor principale del nostro sito è bandcamp: in particolare la sezione <a id="bottoneclicca" href="https://musicforbooks.bandcamp.com/"><i>Music for Books</i></a>, sebbene la piattaforma non associ i brani musicali che offre a estratti di libri specifici, ma solamente a generi testuali. Il sito è soggetto ad aggiornamenti, sebbene non in modo continuativo (l'ultimo aggiornamento risale al 2019). Il suo obiettivo è poco chiaro all'utente, e non risulta correttamente evidenziato nemmeno a livello visivo (viene specificato unicamente in una piccola colonna a destra dello schermo). Il sito è scarsamente intuitivo e di difficile usabilità, anche a causa dell'assenza di una navbar che aiuti l'utente a orientarsi tra le diverse pagine. Inoltre, nonostante la grafica, sebbene povera, sia coerente, l'organizzazione dei contenuti appare poco equilibrata e priva di continuità. Essendo usa sezione di un'altra pagina web, per varie funzionalità l'utente è spesso obbligato a spostarsi sulla pagina di bandcamp, che presenta grafica e struttura differenti. Tuttavia, i suoi punti di forza sono la gratuità del servizio, la possibilità (tramite iscrizione dell'utente) di iscriversi ad una community e il fatto che i brani siano direttamente acquistabili dal sito stesso.<br></p>
             <p>
             <i> Altri competitors: </i><br>
-            Un competitor secondario potrebbe essere considerato<a id="bottoneclicca" href="https://www.spotify.com/it/"><i>Spotify</i></a>, tuttavia l’obiettivo del sito è molto più generico. La piattaforma permette all'utente di ascoltare musica, ma può usufruire di playlist adatte alla lettura solo tramite ricerca specifica. Il sito è intuitivo e facilmente utilizzabile e presenta una grafica coerente ed elegante.
+            Un competitor secondario potrebbe essere considerato<a id="bottoneclicca" href="https://www.spotify.com/it/"><i> Spotify</i></a>, tuttavia l’obiettivo del sito è molto più generico. La piattaforma permette all'utente di ascoltare musica, ma può usufruire di playlist adatte alla lettura solo tramite ricerca specifica. Il sito è intuitivo e facilmente utilizzabile e presenta una grafica coerente ed elegante.
             Inoltre, l’utente può utilizzare la piattaforma gratuitamente, anche se in modo limitato, a meno che non decida di acquistare la versione premium.</p>
             <h2 style="font-size:150%;">Target utente</h2>
             <p> Il target utente primario è costituito da lettori assidui e amanti della musica. Tuttavia, il sito è fruibile e si rivolge a chiunque disponga di una connessione alla rete e di un browser, e sia incuriosito dal progetto.</p>
@@ -84,20 +85,25 @@
             <p>L'obiettivo del sito è offrire un'esperienza inedita: permettere all'utente di udufruire di un metodo di lettura innovativo che sia in grado di coinvolgerlo più intensamente nella narrazione tramite l’ascolto della musica. Inoltre, cerca di avvicinare gli utenti alla lettura di testi e all’ascolto di brani musicali.</p>
 
           <h1 style="font-size:220%;"> STRUTTURA E LAYOUT </h1>
+          <h2 style="font-size:150%;">Architettura del sito</h2>
           <section>
-            <img class="imgdocu" src="img/homewire.jpg" alt="wireframe pagina home" width="600" height="800">
+            <img class="imgdocu" src="img/albero.jpg">
+          </section>
+          <h2 style="font-size:150%;">Wireframe</h2>
+          <section>
+            <img class="imgdocu" src="img/homewire.jpg" alt="wireframe pagina home">
           </section>
           <section>
-            <img class="imgdocu" src="img/generiwire.jpg" alt="wireframe pagina generi" width="600" height="800">
+            <img class="imgdocu" src="img/generiwire.jpg" alt="wireframe pagina generi">
           </section>
           <section>
-            <img class="imgdocu" src="img/cercawire.jpg" alt="wireframe pagina cerca" width="600" height="800">
+            <img class="imgdocu" src="img/cercawire.jpg" alt="wireframe pagina cerca">
           </section>
           <section>
-            <img class="imgdocu" src="img/aboutwire.jpg" alt="wireframe pagina about" width="600" height="800">
+            <img class="imgdocu" src="img/aboutwire.jpg" alt="wireframe pagina about">
           </section>
           <section>
-            <img class="imgdocu" src="img/testowire.jpg" alt="wireframe testo e canzoni" width="600" height="800">
+            <img class="imgdocu" src="img/testowire.jpg" alt="wireframe testo e canzoni">
           </section>
             <h2 style="font-size:150%;">Look and feel</h2>
             <p> - Font: <br>
@@ -112,10 +118,10 @@
             4. #567346, usato per le parti testuali interattive (link e bottoni);<br>
             5. #ffffff (bianco), usato per lo sfondo e i titoli presenti nelle immagini.<br></p>
             <section>
-              <img class="imgdocu" src="img/colorisito.jpg" alt="Palette colori sito!" width="500" height="250">
+              <img class="imgdocu" src="img/colorisito.jpg" alt="Palette colori sito!">
             </section>
-            <h2 style="font-size:150%;">Immagini</h2>
-            <p>Le immagini presenti nel sito sono state progettate, scattate e modificate da noi. Abbiamo scelto di sostituire i titoli delle sezioni e dei singoli testi con immagini che rimandino al loro contenuto. Questa scelta dà un senso di continuità tra le diverse pagine del sito web e le rende maggiormente suggestive.</p>
+            <p>-Immagini:<br>
+            Le immagini presenti nel sito sono state progettate, scattate e modificate da noi. Abbiamo scelto di sostituire i titoli delle sezioni e dei singoli testi con immagini che rimandino al loro contenuto. Questa scelta dà un senso di continuità tra le diverse pagine del sito web e le rende maggiormente suggestive.</p>
             <h2 style="font-size:150%;">Linguaggi e strumenti</h2>
             <p>I linguaggi utilizzati sono:<br>
             - HTML <br>
@@ -131,7 +137,7 @@
             - Google fonts, per le fonts utilizzate nel sito;<br>
             - Google analytics, per monitorare statistiche e dati relativi al sito;<br>
             - Github, per la coordinazione e la condivisione del lavoro di gruppo e per la pubblicazione del sito. </p>
-          <h1 style="font-size: 300%;"> COMMUNICATION STRATEGY PLAN &#128226 </h1>
+          <h1 style="font-size: 60px; padding-top:40px;"> COMMUNICATION STRATEGY PLAN &#128226 </h1>
             <h2 style="font-size: 150%;">Background</h2>
             <p>A fronte dell'analisi dei competitors, abbiamo deciso di inserire le canzoni all'interno del sito tramite l'embed code di Spotify, al fine di permettere all'utente di non dover necessariamente spostarsi su un'altra pagina al momento dell'ascolto, potendo contemporaneamente leggere l'estratto. Questa scelta naturalmente ha il vantaggio di non indurre l'utente, cambiando pagina, ad abbandonare il sito.<br>
             Il valore aggiunto del sito è costituito dal fatto che risponda ad un possibile bisogno specifico dell'utente. Il suo pregio è proprio la sua singolarità, come testimoniato dalla quasi totale assenza di competitor specifici o ben conosciuti. È un progetto innovativo e vicino ad interessi comuni a molti.<br>
@@ -142,9 +148,29 @@
             <p>Il sito si rivolge al gruppo demografico dai 15 anni in su, in maniera più specifica, a tutte le persone che conoscono la lingua italiana e sanno leggere.<br> 
             Generalmente, la fascia demografica degli adolescenti e dei giovani adulti è più facilmente raggiungibile tramite Instagram, mentre quella adulta utilizza spesso Facebook. Inoltre, artisti musicali, scrittori, case editrici e discografiche, prediligono l'utilizzo di Twitter. Essendo la lettura un settore, spesso erroneamente, considerato "di nicchia", abbiamo creduto opportuno creare una pagina per ciascuno di questi social, in modo da essere in grado di raggiungere un'audience più ampia possibile.</p>
             <h2 style="font-size:150%;">Promozione</h2>
-            <p>Per ciò che riguarda la promozione online, utilizzeremo naturalmente i social già citati. Inoltre, abbiamo deciso di inserire all'interno del sito (sfruttando un processo di gamification), un breve <a id="bottoneclicca" href="cerca.html"><i>quiz</i></a>, che aiuti gli utenti a comprendere quale genere testuale potrebbero preferire. Al fine di migliorare l'indicizzazione del sito web, oltre ad utilizzare metadata e microdata (come visbile dalle pagine html), abbiamo ricevuto backlinking da un <a id="bottoneclicca" href="blogballa"><i>blog</i></a>.<br>
+            <p>Per ciò che riguarda la promozione online, utilizzeremo naturalmente i social già citati. Inoltre, abbiamo deciso di inserire all'interno del sito (sfruttando un processo di gamification), un breve <a id="bottoneclicca" href="cerca.html"><i>quiz</i></a>, che aiuti gli utenti a comprendere quale genere testuale potrebbero preferire. Al fine di migliorare l'indicizzazione del sito web, oltre ad utilizzare metadata e microdata (come visbile dalle pagine html), abbiamo ricevuto backlinking da un <a id="bottoneclicca" href="https://viatamburini.wordpress.com/2022/06/14/loud-stories/"><i>blog</i></a>.<br>
             Infine, abbiamo anche sviluppato un volantino contentente l'URL del sito e progettato un piccolo gadget, ovvero un segnalibro contenente il logo del sito.</p>
             <h2 style="font-size:150%;">Valutazione dei risultati</h2>
+            <p style="padding-bottom:30px;">Abbiamo deciso di porci diversi obiettivi:<br>
+              - Raggiungere almeno 50 follower su <a class="bottoneclicca" href="https://www.instagram.com/loud.stories_/">Instagram</a>
+              <section>
+                <img class="imgdocu" src="img/instagram.jpg">
+              </section>
+              Come testimoniato dalla nostra pagina <a class="bottoneclicca" href="https://www.instagram.com/loud.stories_/">Instagram</a>, l'obiettivo è stato ampiamente raggiunto <br>
+              - Realizzare produzioni grafiche e gadget
+              <section>
+                <img  class="imgdocu" src="img/volantino.jpg">
+              </section>
+              <section>
+                <img class="imgdocu" src="img/segnalibro.jpg">
+              </section>
+              Abbiamo deciso di sviluppare due progetti: un volantino cartaceo e un segnalibro.<br>
+              - Essere citati in un blog post <br>
+              <section>
+                <img class="imgdocu" src="img/blogpost.jpg">
+              </section>
+              La citazione da parte del <a id="bottoneclicca" href="https://viatamburini.wordpress.com/2022/06/14/loud-stories/">blog</a>, migliora l'indicizzazione del sito tramite backlinking. 
+          </p>
   </div>
 <footer>
     <p>Loud Stories è un progetto di Benedetta Bani, Gaia Gozzi e Maddalena Messora, sviluppato per il corso di Informatica Umanistica dell'Alma Mater Studiorum - Università di Bologna.</p>
@@ -168,10 +194,9 @@
       </a>
     </button>
     <button class="buttonsocial" type="button">
-        <a href="https://wa.me/?text=I%20found%20a%20great%20website.%20Check%20out%20this%20link%20https%3A%2F%2Fwww.example.com%2F">
+        <a href="https://wa.me/?text=I%20found%20a%20great%20website.%20Check%20out%20this%20link%20https%3A%2F%2Fhttps://l.instagram.com/?u=https%3A%2F%2Fbanibenedetta.github.io%2FLoudStories%2F&e=ATNag6kqgJqOObX27TUuo6aNH83KVC8AKedHtHfQ0IPdRQBp8uI-e1N7vFYk2sHUsES4Q0gi15cJvsmSuzu4rw&s=1">
           <i class="fa-brands fa-2x fa-fw fa-whatsapp"></i>
         </a>
-          <!--- inserire il link del sito in www.example.com-->
     </button>
   </div>
   <section>
