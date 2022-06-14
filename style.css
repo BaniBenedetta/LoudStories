@@ -232,7 +232,7 @@ img {
 }
 
 .search-box:hover > .search-btn {
-	background: white;
+	background: #567346;
 }
 
 #paddingsearchbox {
@@ -241,12 +241,11 @@ img {
 }
 
 .search-btn {
-	color:  #E8A89C;
 	float: right;
 	width: 40px;
 	height: 40px;
 	border-radius: 50%;
-	background: #2f3640;
+	background: #567346;
 	display: flex;
 	justify-content: center;
 	align-items: center;
