@@ -98,7 +98,7 @@ h2 {
 
 .titolopagina{
  	text-align: center;
-  font-family: 'Inter', sans-serif;
+ 	font-family: 'Inter', sans-serif;
  }
 
  .sottotitolo{
@@ -109,7 +109,7 @@ h2 {
  	text-align: center;
  	font-family: 'Inter', sans-serif;
  	margin-right: 15%;
-  margin-left: 15%;
+ 	margin-left: 15%;
 }
  
  .firstletter{
@@ -177,6 +177,7 @@ footer {
 	font-family: 'Reenie Beanie', cursive;
 	font-size: 30px;
 }
+
 .testolibro {
 	font-family: 'Newsreader', serif;
 	font-size: 1.2em;
@@ -190,6 +191,7 @@ button.buttonsocial {
 	margin: 0px 10px;
 	font-size: 16px;
 }
+
 button.buttonsocial:hover {
 	border: 3px solid rgb(0, 0, 0, 1);
 }
@@ -207,8 +209,7 @@ img {
 	max-height: 20%;
 }
 
-.imgdocu
-{
+.imgdocu {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -219,7 +220,7 @@ img {
 	left: 90%;
 	transform: translate(-50%,-50%);
 	display: inline-block;
-	background: #567346;
+	background: #2f3640;
 	height: 40px;
 	border-radius: 40px;
 	padding: 10px #;
@@ -245,7 +246,7 @@ img {
 	width: 40px;
 	height: 40px;
 	border-radius: 50%;
-	background: #567346;
+	background: #2f3640;
 	display: flex;
 	justify-content: center;
 	align-items: center;
