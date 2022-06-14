@@ -6,29 +6,28 @@
 	<meta name="description" content="Sherlock Holmes, che al mattino si alzava quasi sempre molto tardi, tranne che nelle occasioni, non certo rare, in cui restava alzato tutta la notte, era già seduto al tavolo della colazione.">
 	<meta name="keywords" content="HTML, CSS, JavaScript, books, libri, spotify, natura, ambiente, narrativa, fantasy, gialli, musica, rock, pop, Doyle, Sherlock Holmes">
 	<meta name="author" content="Arthur Conan Doyle">
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<title>Loud Stories</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-	
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz@6..72&display=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/3fcd853cc4.js" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </head>
 <body>
 	<header>
 		<nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
 			<div class="container-fluid">
-					<a class="navbar-brand" id="logoloudstories" href="#"> <h1 class="display-3"> <b>Loud Stories </b></h1></a>
+					<a class="navbar-brand" id="logoloudstories" href="index.html"><h1 class="display-3"><b>Loud Stories</b></h1></a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarNavDropdown">
 					<ul class="navbar-nav">
-						<li class="nav-item"> <a class="nav-link active" aria-current="page" id="spaceitem" href="index.html">Home</a> </li>
+						<li class="nav-item"><a class="nav-link active" aria-current="page" id="spaceitem" href="index.html">Home</a></li>
 						<li class="nav-item dropdown"> 
 							<a class="nav-link dropdown-toggle" href="generitestuali.html" id="navbarDropdownMenuLink spaceword" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Generi testuali</a> 
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -36,6 +35,7 @@
 								<li><a class="dropdown-item" href="generitestuali.html#Gialli">Gialli</a></li>
 								<li><a class="dropdown-item" href="generitestuali.html#Fantasy">Fantasy</a></li>
 							</ul>
+						</li>	
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="generimusicali.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Generi Musicali</a> 
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -43,61 +43,76 @@
 								<li><a class="dropdown-item" href="generimusicali.html#Rock">Rock</a></li>
 								<li><a class="dropdown-item" href="generimusicali.html#Ambiente">Musica d'ambiente</a></li>
 							</ul>
+						</li>	
 						<li class="nav-item">
 							<a class="nav-link" href="cerca.html">Cerca</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="about.html">About</a>
 						</li>
-							</ul>
-						</li>
 					</ul>
 				</div>
 			</div>
+		</nav>	
 	</header>
 		<main>
 		<div>
-			<img src="img/holmes.jpg" alt="il libro, lasciato aperto in mezzo ad una strada ciottolata, è stato abbandonato da una giovane donna, di cui si vedono i piedi allontanarsi sullo sfondo, sull'immagine si trova il titolo del libro, ovvero Uno studio in rosso, della saga di Sherlock Holmes, edito nel 1887 e scritto da Sir Arthur Conan Doyle">
+			<span itemscope itemtype="https://schema.org/Book">
+				<span itemprop="name" itemprop="author" itemscope itemtype="https://schema.org/Person" itemprop="datePublished">
+					<img src="img/holmes.jpg" alt="il libro, lasciato aperto in mezzo ad una strada ciottolata, è stato abbandonato da una giovane donna, di cui si vedono i piedi allontanarsi sullo sfondo, sull'immagine si trova il titolo del libro, ovvero Uno studio in rosso, della saga di Sherlock Holmes, edito nel 1887 e scritto da Sir Arthur Conan Doyle">
+				</span>
+			</span>	
 		</div>
 		<div class="container">
 			<section class="row justify-content-evenly">
 				<section class= "col-md-8 col-10"> 	
 						<section>
-							<p class="testolibro"><span class="firstletter">S</span>herlock Holmes, che al mattino si alzava quasi sempre molto tardi, tranne che nelle occasioni, non certo rare, in cui restava alzato tutta la notte, era già seduto al tavolo della colazione. Io, in piedi sul tappeto davanti al camino, presi il bastone che il nostro visitatore aveva dimenticato la sera precedente. Era di un bel legno massiccio, noto con il nome "Penang Lawyer", con un'impugnatura a pomo. Subito sotto di essa correva un'ampia fascetta d'argento larga circa tre centimetri con incise le parole: "A James Mortimer, MRCS, dai suoi amici del CCH", e la data, "1884". Era proprio il genere di bastone che portavano i medici di famiglia di un tempo: sobrio, solido e rassicurante.<br>"Allora, Watson! Che idea se n'è fatto?"<br>Holmes sedeva voltandomi le spalle e io non gli avevo detto a cosa mi stessi dedicando.<br>"Come fa a sapere quello che sto facendo? Deve avere gli occhi dietro la testa!"<br>"O quantomeno una teiera d'argento ben lucida davanti al naso," disse. "Ma mi dica, Watson, che idea s'è fatto del bastone del nostro visitatore? Visto che siamo stati così sfortunati da farcelo scappare e non abbiamo alcuna idea delle sue intenzioni, questo involontario souvenir assume una certa importanza. Sentiamo un pò che ricostruzione, mi dà del nostro uomo dopo aver esaminato questo bastone."<br>"Penso," dissi, imitando per quanto possibili i metodi del mio compagno, "che il dottor Mortimer sia un anziano medico di successo, e molto stimato, se chi lo conosce lo omaggia di un tale segno di apprezzamento".<br>"Bene!" disse Holmes. "Eccellente!"<br>"Penso anche che probabilmente sia un medico di campagna che compie a piedi gran parte del suo giro di visite."<br>"Come fa a dirlo?"<br>"Perché questo bastone, anche se in origine doveva essere un gran bell'oggetto, è davvero malridotto per pensare che sia un medico di città a servirsene. Perfino il puntale di ferro è consumato, perciò il suo proprietario ha certamente camminato molto con esso."<br>"Molto sensato," disse Holmes.<br>"E per di più c'è la dedica degli "amici del CCH". Devo presumere che si tratti di qualche circolo di caccia locale ai cui membri il medico potrebbe aver offerto gratuitamente i suoi servigi ricevendone in cambio questo piccolo dono.<br>"Non c'è che dire, Watson, ha superato se stesso," disse Holmes spostando indietro la sedia e accendendosi una sigaretta. "Devo riconoscere che in tutti i resoconti che ha avuto la mia compiacenza di fare dei miei piccoli successi, lei ha sistematicamente sottovalutato i suoi meriti. Può anche darsi che lei non brilli di luce propria, però ha la capacità di esserne un buon conduttore. Ci sono persone che, pur non essendo geniali, hanno lo squisito potere di stimolare negli altri la genialità. Le confesso, caro amico, che le devo molto".<br>Non era mai stato tanto esplicito e devo ammettere che le sue parole mi fecero molto piacere poiché spesso avevo sofferto della sua indifferenza verso la mia ammirazione e verso i miei tentativi di diffondere i suoi metodi. Pensare, poi, di essere giunto a padroneggiare il suo sistema al punto da meritarmi la sua approvazione nell'applicarlo mi rendeva molto orgoglioso. Ora mi prese il bastone dalle mani e lo esaminò a occhio nudo per alcuni minuti. Poi, con un'espressione di vivo interesse, posò la sigaretta e, portando il bastone alla luce della finestra, lo scrutò con una lente di ingrandimento.<br>"Interessante, per quanto elementare" disse, tornando al suo angolo preferito del divano. "Sicuramente su questo bastone ci sono un paio d'indizi che ci offrono diverse deduzioni"<br>"Mi è forse sfuggito qualcosa?" chiesi con una certa alterigia. "Dubito di aver trascurato qualcosa di rilevante, dico bene?"<br>"Temo, mio caro Watson, che la maggior parte delle conclusioni a cui è giunto siano sbagliate. Quando ho affermato che mi stimolava, intendevo dire, per esser sincero, che, i suoi sbagli mi guidavano verso la verità."
+							<p class="testolibro"><span class="firstletter">S</span>herlock Holmes, che al mattino si alzava quasi sempre molto tardi, tranne che nelle occasioni, non certo rare, in cui restava alzato tutta la notte, era già seduto al tavolo della colazione. Io, in piedi sul tappeto davanti al camino, presi il bastone che il nostro visitatore aveva dimenticato la sera precedente. Era di un bel legno massiccio, noto con il nome "Penang Lawyer", con un'impugnatura a pomo. Subito sotto di essa correva un'ampia fascetta d'argento larga circa tre centimetri con incise le parole: "A James Mortimer, MRCS, dai suoi amici del CCH", e la data, "1884". Era proprio il genere di bastone che portavano i medici di famiglia di un tempo: sobrio, solido e rassicurante.<br>
+							"Allora, Watson! Che idea se n'è fatto?"<br>
+							Holmes sedeva voltandomi le spalle e io non gli avevo detto a cosa mi stessi dedicando.<br
+							>"Come fa a sapere quello che sto facendo? Deve avere gli occhi dietro la testa!"<br>
+							"O quantomeno una teiera d'argento ben lucida davanti al naso," disse. "Ma mi dica, Watson, che idea s'è fatto del bastone del nostro visitatore? Visto che siamo stati così sfortunati da farcelo scappare e non abbiamo alcuna idea delle sue intenzioni, questo involontario souvenir assume una certa importanza. Sentiamo un pò che ricostruzione, mi dà del nostro uomo dopo aver esaminato questo bastone."<br>
+							"Penso," dissi, imitando per quanto possibili i metodi del mio compagno, "che il dottor Mortimer sia un anziano medico di successo, e molto stimato, se chi lo conosce lo omaggia di un tale segno di apprezzamento".<br>
+							"Bene!" disse Holmes. "Eccellente!"<br>
+							"Penso anche che probabilmente sia un medico di campagna che compie a piedi gran parte del suo giro di visite."<br>"Come fa a dirlo?"<br>
+							"Perché questo bastone, anche se in origine doveva essere un gran bell'oggetto, è davvero malridotto per pensare che sia un medico di città a servirsene. Perfino il puntale di ferro è consumato, perciò il suo proprietario ha certamente camminato molto con esso."<br>
+							"Molto sensato," disse Holmes.<br>
+							"E per di più c'è la dedica degli "amici del CCH". Devo presumere che si tratti di qualche circolo di caccia locale ai cui membri il medico potrebbe aver offerto gratuitamente i suoi servigi ricevendone in cambio questo piccolo dono.<br>
+							"Non c'è che dire, Watson, ha superato se stesso," disse Holmes spostando indietro la sedia e accendendosi una sigaretta. "Devo riconoscere che in tutti i resoconti che ha avuto la mia compiacenza di fare dei miei piccoli successi, lei ha sistematicamente sottovalutato i suoi meriti. Può anche darsi che lei non brilli di luce propria, però ha la capacità di esserne un buon conduttore. Ci sono persone che, pur non essendo geniali, hanno lo squisito potere di stimolare negli altri la genialità. Le confesso, caro amico, che le devo molto".<br>
+							Non era mai stato tanto esplicito e devo ammettere che le sue parole mi fecero molto piacere poiché spesso avevo sofferto della sua indifferenza verso la mia ammirazione e verso i miei tentativi di diffondere i suoi metodi. Pensare, poi, di essere giunto a padroneggiare il suo sistema al punto da meritarmi la sua approvazione nell'applicarlo mi rendeva molto orgoglioso. Ora mi prese il bastone dalle mani e lo esaminò a occhio nudo per alcuni minuti. Poi, con un'espressione di vivo interesse, posò la sigaretta e, portando il bastone alla luce della finestra, lo scrutò con una lente di ingrandimento.<br>
+							"Interessante, per quanto elementare" disse, tornando al suo angolo preferito del divano. "Sicuramente su questo bastone ci sono un paio d'indizi che ci offrono diverse deduzioni"<br>
+							"Mi è forse sfuggito qualcosa?" chiesi con una certa alterigia. "Dubito di aver trascurato qualcosa di rilevante, dico bene?"<br>
+							"Temo, mio caro Watson, che la maggior parte delle conclusioni a cui è giunto siano sbagliate. Quando ho affermato che mi stimolava, intendevo dire, per esser sincero, che, i suoi sbagli mi guidavano verso la verità."
 							</p>
 						</section>
 				</section>
 			<section class= "col-md-4 col-10"> 
 			<section class="cardbody song" style="padding: 10px; border: 5px solid rgb(195, 168, 144, 1); border-radius: 0.25rem;font-family: 'Inter', sans-serif; background-color: #E1D3C7;">
 				<p class="audiobox">
-					<h4 class="display-10">Per accompagnare</h4>
-					<iframe style="border-radius:12px; margin-bottom: 40px;" src="https://open.spotify.com/embed/track/5vb7At47uO0yPGfmYnAHuw?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-					<h4 class="display-10" id="songspace">Per stravolgere</h4>
-					<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3vXnuFnC5RhPGwsFi0ORcI?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-					<!---<audio controls> 
-						<source src="Rule-the-World.mp3" type="audio/mpeg">
-					</audio>
-					<p>Questa canzone mi fa pensare a quanto sia bella la pioggia e cosa provo quando piove.</p>
-
-					<h4>Viva la vida-Coldplay</h4>
-					<audio controls> 
-						<source src="Rule-the-World.mp3" type="audio/mpeg">
-					</audio>
-					<p>Questa canzone mi fa pensare a quanto sia malinconica a volte la pioggia e cosa provo quando piove.</p>-->
-					</p>	
-					</section>
+					<span itemprop="track" itemscope itemtype="https://schema.org/MusicRecording">
+						<h4 class="display-10">Per accompagnare</h4>
+						<span itemprop="name">
+							<iframe style="border-radius:12px; margin-bottom: 40px;" src="https://open.spotify.com/embed/track/5vb7At47uO0yPGfmYnAHuw?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+						</span>
+					</span>
+					<span itemprop="track" itemscope itemtype="https://schema.org/MusicRecording">
+						<h4 class="display-10" id="songspace">Per stravolgere</h4>
+						<span itemprop="name">
+							<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3vXnuFnC5RhPGwsFi0ORcI?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+						</span>
+					</span>
+				</p>	
 			</section>
-				</section>
+			</section>
 			</section>
 		</div>
 	</main>
-</body>
 <footer>
 		<p>Loud Stories è un progetto di Benedetta Bani, Gaia Gozzi e Maddalena Messora, sviluppato per il corso di Informatica Umanistica dell'Alma Mater Studiorum - Università di Bologna.</p>
 	<section class="mailcontact">
 		<a href="mailto:loudstories@example.com">Contattaci via mail!</a>
 	</section>
-		<section class="social">
+	<div class="social">
 		<button class="buttonsocial" type="button">
 			<a href="sitoinstagram">
 				<i class="fa fa-2x fa-fw fa-instagram text-black" aria-hidden="true"></i>
@@ -118,7 +133,21 @@
 					<i class="fa-brands fa-2x fa-fw fa-whatsapp"></i>
 				</a>
 					<!--- inserire il link del sito in www.example.com-->
-			</button>
-		</section>		
+		</button>
+	</div>
+	<section>
+		<div>
+			<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
+			<i class="fa-brands fa-creative-commons-by fa-x"></i> <i class="fa-brands fa-creative-commons-nc"></i></a>
+			Le foto presenti nel sito sono state scattate e progettate da Benedetta Bani e sono coperte da licenza <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.	
+		</div>
+		<div>
+			<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+			<i class="fa-brands fa-creative-commons-by fa-x"></i></a>
+			Il sito è coperto da licenza 
+			<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+		</div>
+    </section>	
 </footer>
+</body>
 </html>
